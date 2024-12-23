@@ -15,7 +15,6 @@ define Package/quectel-cm
   DEPENDS:= \
     +kmod-usb-net-cdc-mbim \
     +kmod-usb-net-qmi-wwan \
-    +kmod-usb-net-qmi-wwan-fibocom \
     +kmod-usb-net-qmi-wwan-quectel \
     +kmod-usb-serial-option
 endef
